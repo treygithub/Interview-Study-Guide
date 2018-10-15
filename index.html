@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+
+<body>
+<!-- Markup for todo app******************************************************
+    <ul>
+        <li>"new - add a todo"</li>
+        <li>"list" - list all todos</li>
+        <li> "quit" -quit app</li>
+        <li>"delete last" - delete last todo</li>
+        <li>"move" - item to move</li>
+    </ul> -->
+    <script>
+
+
+//***********************Attempt to duplicate array********************************
+
+//         function dup(arr){
+//             let lastItem = arr[arr.length - 1];
+//             let newArr=arr;
+//             for(i=1; i <= lastItem; i++){
+//                 newArr.push(i)
+//             }
+//             return newArr;
+//         }
+
+// console.log(dup([1,5,9,6,3]))
+
+//********************* 4 WAYS TO LOOP THROUGH ARRAY *******************************
+// var colors = ["red","orange","blue", "happy"];
+
+// colors.forEach(element => {
+//    console.log(element) 
+// });
+
+// colors.forEach(function(colors){
+//     console.log(colors)
+// })
+
+// colors.map(element => {
+//     console.log(element)
+// })
+
+// var count = 0;
+
+// while(count < colors.length){
+//     console.log(colors[count]);
+//     count++;
+// }
+//***************************Fizz Buzz Code Challenge*******************************
+/*
+function loop(num){
+    for(i=0;i<num.length;i++){
+        if(num %15 === 0){
+            console.log("fizzbuzz")
+        }else if(num % 3 === 0){
+            console.log("fizz")
+        }else if (num % 5 === 0){
+            console.log("buzz")
+        }else {
+             console.log(i)
+        }
+    }
+}
+loop(100)
+
+
+******************** ES6 Template Litteral*****************************************
+
+const company = ""
+
+`this is an awesome company its name is ${company}`
+*/
+
+
+
+//*********************awesome todo app****************************
+// let todos = ["test"];
+
+// window.setTimeout(function() {
+
+// var input = prompt("what would you like to do?");
+
+// while (input !== "quit"){
+//     if(input === "list"){
+//     console.log(todos);
+// }else if (input === "new"){
+//     var newTodo = prompt("enter a new todo");
+//     todos.push(newTodo);
+// }else if (input === "delete last"){
+//     var noNew = prompt(" deleteted!! ");
+//     todos.pop();
+//     console.log(todos)
+// }else if (input === "move"){
+//     var move = prompt(" enter item to delete");
+//     var moveme =  todos.indexOf(move)
+//     var x = moveme;
+//     var y = 1
+//     var h = todos.splice(x,y);
+// }
+// var input = prompt("what would you like to do?");
+// }
+// console.log("ok, you quit the app");
+ 
+// }, 500);
+/* todo app over*/
+
+
+//************************************************************
+/*
+        function two() {
+            return 2
+        }
+        
+        function add (a, b=null){
+            return addTwoFive
+        }
+
+        function five() {
+            return 5
+        }
+
+        function addTwoFive(){
+            return c + 5            
+        }    
+        */
+    </script>
+</body>
+</html>
